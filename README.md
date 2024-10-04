@@ -22,14 +22,10 @@ This project is a Discord bot built using Node.js and the `discord.js` library. 
 
 3. **Create a `.env` file**:
    Create a `.env` file in the root directory of the project and add your Discord bot token:
-   ```
-
-env
-
-
-   TOKEN=your_discord_bot_token
-   ```
-
+```{.env}
+TOKEN =MTA5NjYyMDY0MjIzMDYwNzk0Mw.Gxy9R4.7b9KWIrlhDlerNxVmFveZmgpW2ZVr850tn2h5o
+CLIENT_ID = 1096620642230607943
+```
 ## Running the Bot
 
 1. **Authorize the bot**:
