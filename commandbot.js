@@ -1,5 +1,6 @@
-﻿import { token, clientId } from './getauth.js';
+﻿import {getURL, token, clientId } from './getauth.js';
 import { REST, Routes } from 'discord.js';
+console.log(`Authorize your bot by visiting this URL: \n${getURL(clientId)}`);
 
 const commands = [
   {
@@ -29,6 +30,7 @@ client.on('ready', () => {
 });
 
 client.on('interactionCreate', async interaction => {
+  //console.log(`[${interaction.author.tag}]: ${interaction.content}`);
   if (!interaction.isChatInputCommand()) return;
 
   if (interaction.commandName === 'ping') {

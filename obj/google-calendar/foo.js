@@ -1,0 +1,1 @@
+// after detecting message in discord it would generate agoogle calendar invite link event
